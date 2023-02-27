@@ -16,13 +16,13 @@ cp .env.example .env
 ### Start server
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
     
 ### Create client certificate
 
 ```bash
-docker-compose exec ikev2 create-client-cert
+docker compose exec ikev2 create-client-cert
 ```
 
 ### Installation on iPhone
